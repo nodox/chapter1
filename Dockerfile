@@ -56,6 +56,6 @@ RUN npm i -g pm2
 ADD . /var/www/app/current
 
 # Expose the port
-EXPOSE 3000
+EXPOSE 3005
 
 CMD ["pm2", "start", "processes.json", "--no-daemon"]
