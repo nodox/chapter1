@@ -1,4 +1,5 @@
 
+
 read -p 'Enter your Github username: ' GIT_USERNAME
 read -p 'Enter your Github email: ' GIT_EMAIL
 git config --global user.name $GIT_USERNAME
