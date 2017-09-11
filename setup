@@ -4,6 +4,7 @@ read -p 'Enter your Github username: ' GIT_USERNAME
 read -p 'Enter your Github email: ' GIT_EMAIL
 git config --global user.name $GIT_USERNAME
 git config --global user.email $GIT_EMAIL
+git config --global push.default simple
 
 sudo apt-get update
 sudo apt-get install build-essential libssl-dev curl
